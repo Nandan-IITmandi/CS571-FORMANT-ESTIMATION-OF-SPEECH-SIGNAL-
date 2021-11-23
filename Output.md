@@ -5,6 +5,8 @@ Ooutputs of should.wav audio file
 <img width="906" alt="p3" src="https://user-images.githubusercontent.com/93401503/142976393-d6a39099-ddd4-41ff-b5b4-384c6e75070a.PNG">
 
 outputs of phonecallseg_task13.wav audio file
+
+
 LPC Analysis and further process failed due to length of the file
 
 <img width="899" alt="p6" src="https://user-images.githubusercontent.com/93401503/142976519-459f00f5-fabb-41c6-b35f-9e2ccd562eaa.PNG">
