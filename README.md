@@ -1,2 +1,8 @@
 # CS571-FORMANT-ESTIMATION-OF-SPEECH-SIGNAL-
-<img width="875" alt="p4" src="https://user-images.githubusercontent.com/93401503/142976155-40fa9043-6e8e-441c-ba8b-25a02a2395da.PNG">
+**SUMMARY**
+The title of our project is “Formant Estimation of Speech signal”.
+In real world when we perform the digital analysis on the speech signal , we faced the problem of to identify the difference between the different speech signal, Voice signal synthesis.  To overcome from this problem we used formant estimation of speech signal.
+The shape of an acoustic excitation for voiced speech is similar   to a triangle wave. It has many harmonics at multiples of its fundamental frequency, 1/Tp. As the excitation propagates through the vocal tract, acoustic resonances, or standing waves, cause certain harmonics to be significantly amplified. The specific wavelengths, so the frequencies, of the resonances are determined by the shape of the cavities that comprise the vocal tract. Different vowel sounds are distinguished by unique sets of these resonances, or formant frequencies.
+Here in our project we have a speech signal should.wav. At first we have plotted the speech signal for very large samples, then we have divided that speech signal into hamming window frames. Now for each frames we have performed LPC analysis and plotted DFT and LPC spectrum of it. After applying the LPC filter it smoothen the DFT curve. After that we used the “librosa “ library file for picking the ‘Formant Frequencies’ of the DFT spectrum. This formant frequency is used for to identify the difference between the voiced and unvoiced sound signal. 
+This method is used for solving the speech synthesis related problems, identification of different voice signal and many more problem can be solved by using this method.  
+
